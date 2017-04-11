@@ -1,2 +1,2 @@
-My personal website, which may have just directed you here. Also includes Scroll web version source code.
+My personal website, written in HTML and Javascript. Also includes Scroll web version source code.
 Check me out at ejlewis2.web.engr.illinois.edu.
