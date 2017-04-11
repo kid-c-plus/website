@@ -1,0 +1,11 @@
+#aboutcontainer { /* invisible containing box for explanation text, I guess about 70% of screen width */
+	width: 70%;
+	height: 100px; /* like main page, resized programmatically */
+	margin: auto;
+	padding: 0;
+}
+#aboutboxbox { /* visible outer containing box for explanation text */
+	height: 91%;
+	margin: 0 5%;
+	padding: 3%;
+	border	

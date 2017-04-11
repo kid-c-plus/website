@@ -1,0 +1,43 @@
+head, body {
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    overflow: auto;
+    font-family: 'Quicksand', 'sans-serif';
+    background-image: url('../img/background.png');
+    background-size: cover;
+    color: gray;
+}
+
+#header { /* tab at top of screen */
+    height: 48px;
+    border-bottom: solid 1px gray;
+    color: gray;
+    text-align: center;
+}
+#title { /* 'scroll' title card container */
+    width: 80%;
+    float: left;
+    display: block;
+    padding: 6px 0;
+    font-size: 36px;
+    font-style: bold;
+}
+.link { /* about page link holder */
+    width: 10%;
+    float: left;
+    display: block;
+    padding: 12px 0;
+    font-size: 24px;
+}
+
+/* three color classes */
+.dark {
+    background-color: #CC33FF;
+}
+.medium {
+    background-color: #F5D6D3;
+}
+.light {
+    background-color: #FAEBEE;
+}

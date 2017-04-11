@@ -1,0 +1,95 @@
+#userprofilecontainer { /* invisible containing box for profile, exactly 30% of screen width */
+    width: 30%;
+
+}
+#userprofile { /* profile information, width 80% of containing profilebox */
+    width: 80%;
+    margin: auto;
+    padding: 32px 0;
+    border: solid 1px gray;
+    border-radius: 10px;
+    color: gray;
+    text-align: center;
+    font-size: 24px;
+}
+#userprofilepicture {
+    width: 128px;
+    max-width: 90%;
+    height: 128px;
+    max-height: 90%;
+    margin-bottom: 16px;
+}
+.userprofilename {
+    height: 20px;
+    padding-bottom: 16px;
+    vertical-align: middle;
+}
+#userprofilestats {
+    width: 60%;
+    margin: auto;
+    padding: 8px 0;
+    border: solid 1px gray;
+    border-radius: 10px;
+}
+.userprofilestatnum { /* paragraph tags with randomly generated numbers */
+    margin: 0;
+}
+.userprofilestat {
+    height: 16px;
+    max-width: 90%;
+    padding-bottom: 8px;
+    vertical-align: middle;
+}
+
+#scrollcontainer { /* invisible containing box for scrolls, exactly 70% of screen width */
+    width: 70%;
+    height: 100px; /* this gets resized programmatically */
+    margin: auto;
+    padding: 0;
+}
+#scrollboxbox { /* visible outer containing box for scrolls */
+    height: 91%;
+    margin: 0 5%;
+    padding: 3%;
+    border: solid 1px gray;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#scrollbox { /* box containing scrolls */
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: solid 2px gray;
+    border-radius: 10px;
+    overflow: auto;
+    /* overflow-x: hidden; */
+}
+#loading { /* special instance of scroll class, appended during pretend loading */
+    text-align: center;
+}
+#scrollbox::-webkit-scrollbar { /* hides scrollbar */
+    display: none;
+}
+
+.scroll { /* the scrolls themselves, generated programmatically */
+    padding: 2% 0;
+    border-top: 1px solid gray;
+    overflow: auto;
+}
+.profilepicturebox { /* containing element for profile picture */
+    width: 10%;
+    height: 100%;
+    float: left;
+}
+.profilepicture {
+    margin: auto;
+    display: block;
+}
+.fillerbox { /* containing element for filler (text-like gray images) */
+    width: 85%;
+    margin-right: 5%;
+    float: right;
+}
+.filler {
+    vertical-align: top;
+}
